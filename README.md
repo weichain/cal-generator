@@ -31,6 +31,8 @@ to install all the dependencies of the newly generated packages and apply pretti
 
 `npx calgen -n Solana -c 1.1.8 -o ./packages/`
 
+This command will generate all packages required to integrate Solana using CAL version 1.1.8
+
 
 
 
