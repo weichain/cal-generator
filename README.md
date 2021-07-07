@@ -1,3 +1,7 @@
+# Archived
+The current repository is now hosted at https://github.com/liquality/cal-generator
+
+
 # Chain Abstraction Generator <img align="right" src="https://raw.githubusercontent.com/liquality/chainabstractionlayer/master/liquality-logo.png" height="80px" />
 
 Used to generate all packages required to add new chain into [Chain Abstraction Layer](https://github.com/liquality/chainabstractionlayer)
