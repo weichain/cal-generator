@@ -57,12 +57,12 @@ export default (chain: string, version: string): NetworkTemplate => {
   return {
     source: source(firstLetterToUpperCase(chain)),
     pkg: PackageJson(
-      `@liquality/${firstLetterToLowerCase(chain)}-network`,
+      `@liquality/${firstLetterToLowerCase(chain)}-networks`,
       version,
       dependencies(version),
-      `Network specific settings for ${firstLetterToUpperCase(chain)}`
+      `Networks specific settings for ${firstLetterToUpperCase(chain)}`
     ),
-    folder: `${firstLetterToLowerCase(chain)}-network`,
+    folder: `${firstLetterToLowerCase(chain)}-networks`,
     fileName: `index.ts`,
   };
 };
